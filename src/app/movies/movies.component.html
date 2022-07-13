@@ -1,0 +1,17 @@
+<div class="header">
+    <h3>Popular Movies</h3>
+</div>
+<div class="container">
+    <p *ngIf='!filej'>L o a d i n g . . . </p>
+    <div class="row" *ngIf='filej'>
+       <div class="col-sm-12">
+        <div class="card" *ngFor="let img of newarrSorted  | paginate: { itemsPerPage: 21, currentPage: 1 }">
+            <img [src]="img.img">
+            <p>{{img.title}}</p>
+    
+           </div>
+       </div>
+        
+    </div>
+    
+ 

@@ -1,0 +1,33 @@
+.container{
+    justify-content: center;
+    .card{
+        // display: inline;
+        display: inline-block;
+        padding: 6px;
+        p{
+            margin-left: 2px;
+            text-align: center;
+            display: block;
+            font-size: 11px;
+            // word-wrap: break-word;
+            
+        }
+        img{
+            width: 140px;
+            height: 250px;
+            display: inline-block;
+
+        }
+    }
+}
+.header{
+    background-color: grey;
+    margin-top:-20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    height: 40px;
+    color: white;
+    h3{
+        padding: 10px;
+    }
+}
