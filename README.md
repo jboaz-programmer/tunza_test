@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-run `npm install ngx-pagination --save` to install gagination pipe plugins.
+run `npm install ngx-pagination --save` to install pagination pipe plugins.
 
 
 ## I decided to use angular because is the template that is very responsive and faster as well because is having Single Page Application(SPA)
